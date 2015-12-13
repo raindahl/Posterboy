@@ -1,0 +1,286 @@
+/*
+Theme Name: Poster Boy Records
+Theme URI: http: //www.posterboyrecords.co.uk/
+Description: Poster Boy Records Website
+Author: Andrew Rainey and Stephen Flanaghan
+Author URI: http: //andrewraineywebdeveloper.com/
+Template: boldr-pro.1.5.0
+Version: 0.1
+*/
+@import url("../boldr-pro.1.5.0/style.css");
+
+
+#header {
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #DDDCDC;
+}
+#sidebar .textwidget {font-family: 'Open Sans';
+font-size: 18px;
+margin-top: -9px;
+}
+
+#header-wrap {
+position: relative;
+background: #DDDCDC;
+}
+
+#header #social-media {
+float: right;
+text-align: right;
+max-width: 30%;
+position: absolute;
+left: 400px;
+top: 15px;
+z-index: 1;
+}
+
+#navbar {
+text-align: right;
+float: right;
+text-align: right;
+max-width: 40%;
+position: absolute;
+left: 580px;
+top: 16px;
+z-index: 3;
+}
+#navbar {
+border-bottom: 0px solid #2C1010;
+margin-bottom: 40px;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+h1.page-title {
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 30px;
+color: #333333;
+}
+
+h2.entry-title {
+line-height: 26px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 30px;
+color: #333333;
+}
+
+#page-container.with-sidebar {
+width: 720px;
+padding-top: 20px;
+}
+fieldset, form {
+margin-bottom: 20px;
+
+background: #fff;
+}
+
+#sidebar-container {
+width: 200px;
+padding-top: 20px;
+}
+
+p {
+margin: 0 0 20px;
+line-height: 120%;
+}
+
+hr {
+border: solid #FFF;
+border-width: 3px 0 0;
+clear: both;
+margin: 20px 0 40px;
+height: 0;
+}
+
+#footer .container>ul.one-fourth, #footer .container>ul.one-third, #footer .container>ul>li, #page-container>* {
+margin-left: 20px!important;
+margin-right: 20px!important;
+margin-bottom: -9px;
+vertical-align: top;
+float: none;
+}
+
+h3.entry-title {
+text-transform: uppercase;
+font-size: 24px;
+margin-bottom: 3px;
+}
+#page-container h3.entry-title a, #page-container h3.entry-title a:visited {
+font-size: 40px;
+color: #333333;
+}
+.post-category {
+text-transform: uppercase;
+color: #707070;
+font-size: 13px;
+margin-bottom: 3px;
+}
+
+#page-container.with-sidebar {
+width: 720px;
+padding-top: 0px;
+margin-top: -26px;
+border-right: solid 2px #dcdcdc;
+}
+
+#sidebar-container {
+width: 180px;
+padding-top: 20px;
+margin-top: -46px;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+margin-bottom: 20px;
+float: right;
+text-align: right;
+max-width: 50%;
+}
+
+h1.entry-title, h1.page-title {
+/* padding: 20px 20px 20px; */
+border-bottom: 1px solid #EEE;
+margin: 0 20px 40px;
+text-transform: uppercase;
+width: 905px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 30px;
+color: #727272;
+}
+
+table.cnss-social-icon tr td img {
+max-width: 100% !important;
+
+}
+
+p a, p a:visited {
+line-height: inherit;
+color: #3CAAC3;
+font-weight: bold;
+}
+
+
+
+.pp_gallery ul {
+float: left;
+height: 35px;
+position: relative;
+white-space: nowrap;
+margin: 0 0 0 5px;
+padding: 0;
+display: none;
+}
+
+#page-container h3.entry-title a, #page-container h3.entry-title a:visited {
+font-size: 40px;
+color: #727272;
+}
+
+.flexslider .slides img {
+width: 100%;
+height: 100%;
+max-height: 300px;
+}
+
+#page-container.portfolio-page .portfolio-item, #page-container.portfolio-page.with-sidebar .portfolio-item {
+
+max-width: 260px;
+    height: 260px;
+    float: left;
+    width: 100%;
+    max-height: 260px;
+    width: 260px;
+
+}
+
+#page-container.with-sidebar .one-fourth .portfolio-desc, #page-container.with-sidebar .one-fourth .portfolio-item {
+
+
+max-width: 260px;
+height: 100%;
+float: left;
+width: 100%;
+max-height: 260px;
+}
+
+#page-container.with-sidebar .one-fourth .portfolio-desc h3 {
+line-height: 264px;
+font-size: 30px;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+
+.read-more {background-color:#fff; background:#fff;}
+.read-more a, .read-more a:visited { color:#727272; background-color:#fff; margin-left:-9px; margin-top: -15px }
+.read-more a:hover, .read-more a:focus { color:#727272; margin-left:-9px; margin-top: -15px background-color:#fff;}
+
+@media only screen and (max-width: 500px){
+#page-container.with-sidebar {
+width: 300px;
+padding-top: 0px;
+margin-top: -26px;
+border-right: 2px solid #dcdcdc;
+}
+#sidebar>li {
+margin-bottom: 30px;
+margin-left: -59px;
+width: 200px;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+margin-bottom: 20px;
+float: right;
+text-align: right;
+max-width: 50%;
+display: none;
+}
+}
+
+
+.flexslider { -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; }
+
+.meta-comments a, .meta-comments a:visited {
+color: #ccc;
+display: none;
+}
+
+img.scale-with-grid {
+max-width: 100%;
+height: auto;
+width: auto;
+max-height:100%;
+float:left;
+}  
+
+#mc_signup_submit {
+margin-top: 0.5em;
+width: 100%;
+float: left;
+}  
+
+#sidebar input[type=text], #sidebar textarea {
+width: 100%;
+}
+
+.postmetadata .meta-author {
+display:none;
+}
+
+.meta-comments {
+background: #fff;
+color: #ccc;
+font-size: 13px;
+padding: 4px 0;
+}
+
+@media only screen and (max-width: 767px)
+.container {
+    width: 193px!important;
+    float: left;
+}
